@@ -17,8 +17,6 @@ def procesar():
     total = totalPans+totalPlayDep+totalPlayDia+totalChaleco
     print total
     
-
-
 ventana = Tk()
 
 Fecha = datetime.datetime.now()
@@ -147,8 +145,8 @@ R2.pack( anchor = W )
 
 R3 = Radiobutton(ventana, text="Option 3", variable=var, value=3,
                   command=sel)
-R3.pack( anchor = W)
-'''
+R3.pack( anchor = W)'''
+
 Imprimir=Button(ventana,text='Imprimir', background="pink")
 Imprimir.grid(row=12,column=6)
 
